@@ -1,7 +1,13 @@
 {
   "name": "alura-timer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "author": "MarcosOliveir4 <marcosassis071@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "1.6.1"
+  }
 }
